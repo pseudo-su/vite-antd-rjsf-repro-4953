@@ -6,14 +6,14 @@ import schema from "./example.schema.json";
 import uiSchema from "./example.uiSchema.json";
 import formData from "./example.formData.json";
 
-const Form = withTheme(AntDTheme);
+const JsonSchemaForm = withTheme(AntDTheme);
 
 import { Button } from "antd";
 
 const App = () => (
   <div className="App">
     <Button type="primary">Button</Button>
-    <Form
+    <JsonSchemaForm
       schema={schema as RJSFSchema}
       uiSchema={uiSchema}
       initialFormData={formData}

@@ -20,6 +20,8 @@ Run
 pnpm run dev
 ```
 
+![./docs/error.png](./docs/error.png)
+
 ## Links
 
 - https://vite.dev/guide/

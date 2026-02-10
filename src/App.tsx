@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { withTheme } from "@rjsf/core";
+import { Theme as AntDTheme } from "@rjsf/antd";
+import validator from "@rjsf/validator-ajv8";
+import type { RJSFSchema } from "@rjsf/utils";
+import schema from "./example.schema.json";
+import uiSchema from "./example.uiSchema.json";
+import formData from "./example.formData.json";
 
-function App() {
-  const [count, setCount] = useState(0)
+const Form = withTheme(AntDTheme);
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+import { Button } from "antd";
 
-export default App
+const App = () => (
+  <div className="App">
+    <Button type="primary">Button</Button>
+    <Form
+      schema={schema as RJSFSchema}
+      uiSchema={uiSchema}
+      initialFormData={formData}
+      validator={validator}
+    />
+  </div>
+);
+
+export default App;

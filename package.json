@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@rjsf/antd": "^6.2.5",
+    "@rjsf/antd": "github:pseudo-su/react-jsonschema-form#antd-svg-icons-bundle&path:packages/antd",
     "@rjsf/core": "^6.2.5",
     "@rjsf/utils": "^6.2.5",
     "@rjsf/validator-ajv8": "^6.2.5",

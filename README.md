@@ -22,6 +22,12 @@ pnpm run dev
 
 ![./docs/error.png](./docs/error.png)
 
+## Bugfix
+
+```sh
+pnpm add pseudo-su/react-jsonschema-form#antd-svg-icons-bundle\&path:packages/antd
+```
+
 ## Links
 
 - https://vite.dev/guide/

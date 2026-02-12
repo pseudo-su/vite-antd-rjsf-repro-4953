@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@rjsf/antd':
-        specifier: ^6.2.5
-        version: 6.2.5(@ant-design/icons@6.1.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@rjsf/core@6.2.5(@rjsf/utils@6.2.5(react@19.2.4))(react@19.2.4))(@rjsf/utils@6.2.5(react@19.2.4))(antd@6.2.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(dayjs@1.11.19)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: github:pseudo-su/react-jsonschema-form#antd-svg-icons-bundle&path:packages/antd
+        version: https://codeload.github.com/pseudo-su/react-jsonschema-form/tar.gz/b7a8d9be4add770c13269f765f23b41bf08ef3d9#path:packages/antd(@ant-design/icons@6.1.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@rjsf/core@6.2.5(@rjsf/utils@6.2.5(react@19.2.4))(react@19.2.4))(@rjsf/utils@6.2.5(react@19.2.4))(antd@6.2.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(dayjs@1.11.19)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@rjsf/core':
         specifier: ^6.2.5
         version: 6.2.5(@rjsf/utils@6.2.5(react@19.2.4))(react@19.2.4)
@@ -586,8 +586,9 @@ packages:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
 
-  '@rjsf/antd@6.2.5':
-    resolution: {integrity: sha512-ibcLcq44dBTFzo4WOnL8OjDHVdcZDyMwWYc+RVk/DzHL+49iaTVakado+WrPENSehjIl3ueCvgRv1oeP3FyV+g==}
+  '@rjsf/antd@https://codeload.github.com/pseudo-su/react-jsonschema-form/tar.gz/b7a8d9be4add770c13269f765f23b41bf08ef3d9#path:packages/antd':
+    resolution: {path: packages/antd, tarball: https://codeload.github.com/pseudo-su/react-jsonschema-form/tar.gz/b7a8d9be4add770c13269f765f23b41bf08ef3d9}
+    version: 6.2.5
     engines: {node: '>=20'}
     peerDependencies:
       '@ant-design/icons': ^6.0.0
@@ -2163,7 +2164,7 @@ snapshots:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
 
-  '@rjsf/antd@6.2.5(@ant-design/icons@6.1.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@rjsf/core@6.2.5(@rjsf/utils@6.2.5(react@19.2.4))(react@19.2.4))(@rjsf/utils@6.2.5(react@19.2.4))(antd@6.2.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(dayjs@1.11.19)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@rjsf/antd@https://codeload.github.com/pseudo-su/react-jsonschema-form/tar.gz/b7a8d9be4add770c13269f765f23b41bf08ef3d9#path:packages/antd(@ant-design/icons@6.1.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@rjsf/core@6.2.5(@rjsf/utils@6.2.5(react@19.2.4))(react@19.2.4))(@rjsf/utils@6.2.5(react@19.2.4))(antd@6.2.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(dayjs@1.11.19)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       '@ant-design/icons': 6.1.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@rjsf/core': 6.2.5(@rjsf/utils@6.2.5(react@19.2.4))(react@19.2.4)
